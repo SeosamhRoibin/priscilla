@@ -10,14 +10,10 @@ module.exports = {
     options: {
       apiURL: `https://connemara2.herokuapp.com`,
       queryLimit: 1000, // Default to 100
-      contentTypes: [`article`, `user`],
+      contentTypes: [`poniesForSale`],
       //If using single types place them in this array.
-      singleTypes: [`home-page`, `contact`],
+      //singleTypes: [`home-page`],
       // Possibility to login with a strapi user, when content types are not publically available (optional).
-      loginData: {
-        identifier: "",
-        password: "",
-      },
     },
   },
     `gatsby-plugin-react-helmet`,
