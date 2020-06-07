@@ -8,7 +8,7 @@ module.exports = {
  {
     resolve: `gatsby-source-strapi`,
     options: {
-      apiURL: `http://localhost:1337`,
+      apiURL: `https://connemara1.herokuapp.com`,
       queryLimit: 1000, // Default to 100
       contentTypes: [`article`, `user`],
       //If using single types place them in this array.
